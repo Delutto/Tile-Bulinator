@@ -1,3 +1,5 @@
+![](TileBulinator.png)
+
 # User Guide: Tile Bulinator
 
 ## 1. Introduction
