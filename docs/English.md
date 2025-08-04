@@ -35,7 +35,7 @@ This manual will guide you through its powerful features, from basic file viewin
 
 The main window is divided into several key areas:
 
-![Main Interface Overview](https://i.imgur.com/REPLACE_WITH_YOUR_IMAGE.png)
+![Main Interface Overview](imgs/MainInterface_EN.png)
 *(Image: A screenshot of the main application window with key areas highlighted.)*
 
 * **Main Menu**: Located at the top, it provides access to all application functions, such as file operations, editing commands, and view settings.
@@ -68,7 +68,7 @@ You can manage projects using the **Project** menu. Use **Project > Save Project
 
 Each tab contains a Document View, which is where all the magic happens. This view is self-contained and holds all the settings for the currently displayed file.
 
-![Document View Overview](https://i.imgur.com/REPLACE_WITH_YOUR_IMAGE.png)
+![The Document View](imgs/DocumentView_EN.png)
 *(Image: A screenshot of a single document tab with its various panels highlighted.)*
 
 ### Controls Panel
@@ -83,7 +83,7 @@ This panel allows you to define how the raw data from the ROM is interpreted and
 
 Here you can select your active editing tool and perform transformations on your tiles.
 
-![Tools Panel](https://i.imgur.com/REPLACE_WITH_YOUR_IMAGE.png)
+![Tools Panel](imgs/Tools_EN.png)
 *(Image: A close-up of the Tools panel.)*
 
 * **Editing Tools**: Pointer, Pencil, Fill Bucket, Eyedropper, Color Replacer, Zoom, and Move tools. Each is explained in detail in section 5.
@@ -95,11 +95,17 @@ Here you can select your active editing tool and perform transformations on your
 Tile Bulinator uses a two-level palette system for maximum flexibility.
 
 * **Master Palette** (right panel): This shows the full 256-color master palette. You can load this palette from the ROM (see **Palette Menu**) or an external file. Clicking on this palette selects a sub-palette to use for editing.
+![Master Palette](imgs/MasterPalette_EN.png)
+*(Image: A close-up of the Master Palette panel.)*
 * **Active Palette** (left panel): This is the sub-palette currently being used for drawing. Its size is determined by the selected codec's bits-per-pixel (e.g., a 4bpp codec will use a 16-color active palette). Clicking a color here selects it for drawing. Right-clicking a color allows you to edit it.
+![Active Palette](imgs/ActivePalette_EN.png)
+*(Image: A close-up of the Active Palette panel.)*
 
 ### The Tile Viewer
 
 This is the main canvas where the decoded tiles are displayed and edited.
+![Active Palette](imgs/TileViewer_EN.png)
+*(Image: A close-up of the The Tile Viewer panel.)*
 
 * **Navigation**: Use the vertical scrollbar to move through the file tile-by-tile, and the horizontal scrollbar for fine-tuned byte-level offsetting. You can also use the mouse wheel to scroll vertically.
 * **Zooming**: The fastest way to zoom is by holding **Ctrl** and using the **Mouse Wheel**.
@@ -109,21 +115,21 @@ This is the main canvas where the decoded tiles are displayed and edited.
 
 Here is how to use each tool from the Tools Panel.
 
-* **Pointer Tool**: Click and drag to select a rectangular block of tiles. The selection can then be used for transformations, copy/cut operations, or exporting.
-* **Pencil Tool**: Click on a pixel to draw with the currently selected color from the Active Palette. You can also click and drag to draw continuously.
+* ![](imgs/Tools_Pointer.png) **Pointer Tool**: Click and drag to select a rectangular block of tiles. The selection can then be used for transformations, copy/cut operations, or exporting.
+* ![](imgs/Tools_Pencil.png) **Pencil Tool**: Click on a pixel to draw with the currently selected color from the Active Palette. You can also click and drag to draw continuously.
     > **Shortcut**: Hold **Ctrl** while this tool is active to temporarily switch to the **Eyedropper**.
-* **Fill Bucket Tool**:
+* ![](imgs/Tools_Bucket.png) **Fill Bucket Tool**:
     * **Normal Click**: Performs a "global fill". It finds all pixels of the clicked color that are connected across the *entire visible tile area* and replaces them with the active color.
     * **Ctrl + Click**: Performs a "local fill". The fill is constrained to the single 8x8 tile you clicked in.
-* **Eyedropper Tool**: Click on any pixel in the tile viewer to select its color and make it the active color in the palette views.
-* **Color Replacer Tool**: Replaces a color with another. Click on a pixel; its color becomes the "target" color, and all instances of it are replaced by the currently active drawing color.
+* ![](imgs/Tools_Eyedropper.png) **Eyedropper Tool**: Click on any pixel in the tile viewer to select its color and make it the active color in the palette views.
+* ![](imgs/Tools_Replacer.png) **Color Replacer Tool**: Replaces a color with another. Click on a pixel; its color becomes the "target" color, and all instances of it are replaced by the currently active drawing color.
     > **Shortcut**: Hold **Shift** while clicking to perform the replacement *only within the current selection*.
-* **Move Tool**: Allows you to move a selection of tiles.
+* ![](imgs/Tools_Move.png) **Move Tool**: Allows you to move a selection of tiles.
     1.  First, create a selection with the **Pointer Tool**.
     2.  Select the **Move Tool**.
     3.  Click *inside* the selection and drag it to a new location.
     4.  Release the mouse button to drop the tiles in the new position.
-* **Zoom Tool**:
+* ![](imgs/Tools_Zoom.png) **Zoom Tool**:
     * **Left-click** on the tile viewer to zoom in.
     * **Right-click** to zoom out.
 
@@ -185,3 +191,4 @@ Here is how to use each tool from the Tools Panel.
 
 ---
 *This manual was generated based on the application source code. All features are subject to change.*
+
