@@ -55,7 +55,7 @@ Tile Bulinator is packed with features designed to streamline the tile editing p
 
 ## Supported Languages
 
-Tile Bulinator includes support for 9 different languages.
+Tile Bulinator includes support for 10 different languages.
 
 * Català
 * Deutsche
