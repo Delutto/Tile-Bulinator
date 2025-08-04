@@ -83,7 +83,7 @@ Este painel permite que você defina como os dados brutos da ROM são interpreta
 
 Aqui você pode selecionar sua ferramenta de edição ativa e realizar transformações em seus tiles.
 
-![Painel de Ferramentas](imgs/Tools_EN.png)
+![Painel de Ferramentas](imgs/Tools_EN.png)                                                                                                    
 *(Imagem: Um close-up do painel de Ferramentas.)*
 
 * **Ferramentas de Edição**: Ponteiro, Lápis, Balde de Tinta, Conta-gotas, Substituidor de Cor, Zoom e Mover. Cada uma é explicada em detalhe na seção 5.
@@ -95,16 +95,19 @@ Aqui você pode selecionar sua ferramenta de edição ativa e realizar transform
 O Tile Bulinator usa um sistema de paletas de dois níveis para máxima flexibilidade.
 
 * **Paleta Mestra** (painel direito): Mostra a paleta mestra completa de 256 cores. Você pode carregar esta paleta da ROM (veja o **Menu Paleta**) ou de um arquivo externo. Clicar nesta paleta seleciona uma sub-paleta para usar na edição.
-    ![Paleta Mestra](imgs/MasterPalette_EN.png)
+
+    ![Paleta Mestra](imgs/MasterPalette_EN.png)                                                                                                                 
     *(Imagem: Um close-up do painel da Paleta Mestra.)*
 * **Paleta Ativa** (painel esquerdo): Esta é a sub-paleta atualmente em uso para desenhar. Seu tamanho é determinado pelos bits por pixel do codec selecionado (ex: um codec de 4bpp usará uma paleta ativa de 16 cores). Clicar em uma cor aqui a seleciona para desenhar. Clicar com o botão direito em uma cor permite que você a edite.
-    ![Paleta Ativa](imgs/ActivePalette_EN.png)
+
+    ![Paleta Ativa](imgs/ActivePalette_EN.png)                                                                                                        
     *(Imagem: Um close-up do painel da Paleta Ativa.)*
 
 ### O Visualizador de Tiles
 
 Esta é a tela principal onde os tiles decodificados são exibidos e editados.
-![Visualizador de Tiles](imgs/TileViewer_EN.png)
+
+![Visualizador de Tiles](imgs/TileViewer_EN.png)                                                                                            
 *(Imagem: Um close-up do painel do Visualizador de Tiles.)*
 
 * **Navegação**: Use a barra de rolagem vertical para mover-se pelo arquivo tile por tile, e a barra de rolagem horizontal para um deslocamento mais fino em nível de byte. Você também pode usar a roda do mouse para rolar verticalmente.
@@ -190,4 +193,5 @@ Aqui está como usar cada ferramenta do Painel de Ferramentas.
 | Editar Cor Ativa | `Clique com o botão direito` em uma cor | Na Visualização de Paleta Ativa |
 
 ---
+
 *Este manual foi gerado por IA com base no código-fonte da aplicação. Todos os recursos estão sujeitos a alterações.*
