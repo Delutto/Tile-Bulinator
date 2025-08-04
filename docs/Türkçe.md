@@ -1,193 +1,197 @@
 # Tile Bulinator - Kullanici Kilavuzu
 
-**Tile Bulinator**'in resmi Kullanici Kilavuzu'na hos geldiniz. Bu kilavuz, uygulamanin tüm özellikleri ve islevleri hakkinda ayrintili bir yol haritasi sunmaktadir.
+**Tile Bulinator**'in resmi Kullanici Kilavuzu'na hos geldiniz. Bu kilavuz, uygulamanin tÃ¼m Ã¶zellikleri ve islevleri hakkinda ayrintili bir yol haritasi sunmaktadir.
 
-## Içindekiler
+## IÃ§indekiler
 1.  [Giris](#1-introduction)
-2.  [Ana Arayüz](#2-the-main-interface)
+2.  [Ana ArayÃ¼z](#2-the-main-interface)
 3.  [Baslarken: Dosyalar ve Projeler](#3-getting-started-files--projects)
-    * [Bir ROM Dosyasi Açma](#opening-a-rom-file)
-    * [Projelerle Çalisma](#working-with-projects)
-4.  [Belge Görünümü](#4-the-document-view)
+    * [Bir ROM Dosyasi AÃ§ma](#opening-a-rom-file)
+    * [Projelerle Ã‡alisma](#working-with-projects)
+4.  [Belge GÃ¶rÃ¼nÃ¼mÃ¼](#4-the-document-view)
     * [Kontrol Paneli](#controls-panel)
-    * [Araçlar Paneli](#tools-panel)
-    * [Palet Görünümleri](#palette-views)
-    * [Döseme Görüntüleyici](#the-tile-viewer)
-5.  [Düzenleme Araçlari Detayli Anlatim](#5-editing-tools-in-detail)
-6.  [Menü Referansi](#6-menu-reference)
-    * [Dosya Menüsü](#file-menu)
-    * [Düzen Menüsü](#edit-menu)
-    * [Görünüm Menüsü](#view-menu)
-    * [Palet Menüsü](#palette-menu)
-    * [Proje Menüsü](#project-menu)
-    * [Ayarlar Menüsü](#settings-menu)
+    * [AraÃ§lar Paneli](#tools-panel)
+    * [Palet GÃ¶rÃ¼nÃ¼mleri](#palette-views)
+    * [DÃ¶seme GÃ¶rÃ¼ntÃ¼leyici](#the-tile-viewer)
+5.  [DÃ¼zenleme AraÃ§lari Detayli Anlatim](#5-editing-tools-in-detail)
+6.  [MenÃ¼ Referansi](#6-menu-reference)
+    * [Dosya MenÃ¼sÃ¼](#file-menu)
+    * [DÃ¼zen MenÃ¼sÃ¼](#edit-menu)
+    * [GÃ¶rÃ¼nÃ¼m MenÃ¼sÃ¼](#view-menu)
+    * [Palet MenÃ¼sÃ¼](#palette-menu)
+    * [Proje MenÃ¼sÃ¼](#project-menu)
+    * [Ayarlar MenÃ¼sÃ¼](#settings-menu)
 7.  [Klavye ve Fare Kisayollari](#7-keyboard--mouse-shortcuts)
 
 ---
 
 ## 1. Giris
 
-**Tile Bulinator**, klasik konsol ROM'larinda bulunan ham grafik verilerini görüntülemek ve degistirmek için tasarlanmis gelismis bir döseme (tile) grafik düzenleyicisidir. ROM hacker'lari ve retro oyun meraklilarinin oyun varliklarini dogrudan kesfetmeleri ve degistirmeleri için güçlü ve sezgisel bir arayüz saglar.
+**Tile Bulinator**, klasik konsol ROM'larinda bulunan ham grafik verilerini gÃ¶rÃ¼ntÃ¼lemek ve degistirmek iÃ§in tasarlanmis gelismis bir dÃ¶seme (tile) grafik dÃ¼zenleyicisidir. ROM hacker'lari ve retro oyun meraklilarinin oyun varliklarini dogrudan kesfetmeleri ve degistirmeleri iÃ§in gÃ¼Ã§lÃ¼ ve sezgisel bir arayÃ¼z saglar.
 
-Bu kilavuz, temel dosya görüntülemeden gelismis grafik düzenleme ve palet yönetimine kadar güçlü özellikleri boyunca size rehberlik edecektir.
+Bu kilavuz, temel dosya gÃ¶rÃ¼ntÃ¼lemeden gelismis grafik dÃ¼zenleme ve palet yÃ¶netimine kadar gÃ¼Ã§lÃ¼ Ã¶zellikleri boyunca size rehberlik edecektir.
 
-## 2. Ana Arayüz
+## 2. Ana ArayÃ¼z
 
-Ana pencere birkaç ana alana ayrilmistir:
+Ana pencere birkaÃ§ ana alana ayrilmistir:
 
-![Ana Arayüz Genel Bakis](imgs/MainInterface_EN.png)
-*(Resim: Anahtar alanlari vurgulanmis ana uygulama penceresinin bir ekran görüntüsü.)*
+![Ana ArayÃ¼z Genel Bakis](imgs/MainInterface_EN.png)
+*(Resim: Anahtar alanlari vurgulanmis ana uygulama penceresinin bir ekran gÃ¶rÃ¼ntÃ¼sÃ¼.)*
 
-* **Ana Menü**: Üstte yer alir ve dosya islemleri, düzenleme komutlari ve görünüm ayarlari gibi tüm uygulama islevlerine erisim saglar.
-* **Belge Alani**: ROM dosyalarinin sekmeler halinde açildigi pencerenin merkezi kismidir. Her sekme bagimsiz bir belge görünümünü temsil eder.
-* **Durum Çubugu**: Altta yer alir ve açik dosyanin tam yolu, imlecin altindaki adres ve koordinatlar ve mevcut yakinlastirma seviyesi gibi önemli bilgileri görüntüler.
+* **Ana MenÃ¼**: Ãœstte yer alir ve dosya islemleri, dÃ¼zenleme komutlari ve gÃ¶rÃ¼nÃ¼m ayarlari gibi tÃ¼m uygulama islevlerine erisim saglar.
+* **Belge Alani**: ROM dosyalarinin sekmeler halinde aÃ§ildigi pencerenin merkezi kismidir. Her sekme bagimsiz bir belge gÃ¶rÃ¼nÃ¼mÃ¼nÃ¼ temsil eder.
+* **Durum Ã‡ubugu**: Altta yer alir ve aÃ§ik dosyanin tam yolu, imlecin altindaki adres ve koordinatlar ve mevcut yakinlastirma seviyesi gibi Ã¶nemli bilgileri gÃ¶rÃ¼ntÃ¼ler.
 
 ## 3. Baslarken: Dosyalar ve Projeler
 
-### Bir ROM Dosyasi Açma
+### Bir ROM Dosyasi AÃ§ma
 
-Baslamak için bir ROM dosyasi açmaniz gerekir.
-1.  Ana menüden **Dosya > Aç**'a gidin.
-2.  Bilgisayarinizdan bir veya daha fazla ROM dosyasi seçin.
-3.  Seçilen her dosya, Belge Alani'nda yeni bir sekmede açilacaktir.
+Baslamak iÃ§in bir ROM dosyasi aÃ§maniz gerekir.
+1.  Ana menÃ¼den **Dosya > AÃ§**'a gidin.
+2.  Bilgisayarinizdan bir veya daha fazla ROM dosyasi seÃ§in.
+3.  SeÃ§ilen her dosya, Belge Alani'nda yeni bir sekmede aÃ§ilacaktir.
 
-Bir dosya açildiginda, tüm düzenleme islemleri için ana çalisma alani olan bir **Belge Görünümü**'ne yüklenir.
+Bir dosya aÃ§ildiginda, tÃ¼m dÃ¼zenleme islemleri iÃ§in ana Ã§alisma alani olan bir **Belge GÃ¶rÃ¼nÃ¼mÃ¼**'ne yÃ¼klenir.
 
-### Projelerle Çalisma
+### Projelerle Ã‡alisma
 
-Bir **Proje (`.tbproj`)** tüm çalisma alani oturumunuzu kaydeder. Bu, birden fazla dosyayla çalistiginiz veya çok özel görünüm ayarlarina sahip oldugunuz karmasik hack'ler için inanilmaz derecede kullanislidir.
+Bir **Proje (`.tbproj`)** tÃ¼m Ã§alisma alani oturumunuzu kaydeder. Bu, birden fazla dosyayla Ã§alistiginiz veya Ã§ok Ã¶zel gÃ¶rÃ¼nÃ¼m ayarlarina sahip oldugunuz karmasik hack'ler iÃ§in inanilmaz derecede kullanislidir.
 
 Bir proje dosyasi sunlari saklar:
-* Açik olan tüm ROM dosyalarinin listesi.
-* Her dosya için özel ayarlar: codec, palet, yakinlastirma, kaydirma konumu vb.
-* Üzerinde çalistiginiz aktif sekme.
+* AÃ§ik olan tÃ¼m ROM dosyalarinin listesi.
+* Her dosya iÃ§in Ã¶zel ayarlar: codec, palet, yakinlastirma, kaydirma konumu vb.
+* Ãœzerinde Ã§alistiginiz aktif sekme.
 
-Projeleri **Proje** menüsünü kullanarak yönetebilirsiniz. Mevcut oturumunuzu kaydetmek için **Proje > Projeyi Kaydet**'i ve daha sonra geri yüklemek için **Proje > Projeyi Aç**'i kullanin.
+Projeleri **Proje** menÃ¼sÃ¼nÃ¼ kullanarak yÃ¶netebilirsiniz. Mevcut oturumunuzu kaydetmek iÃ§in **Proje > Projeyi Kaydet**'i ve daha sonra geri yÃ¼klemek iÃ§in **Proje > Projeyi AÃ§**'i kullanin.
 
-## 4. Belge Görünümü
+## 4. Belge GÃ¶rÃ¼nÃ¼mÃ¼
 
-Her sekme, tüm sihrin gerçeklestigi bir Belge Görünümü içerir. Bu görünüm kendi kendine yeterlidir ve o anda görüntülenen dosya için tüm ayarlari tutar.
+Her sekme, tÃ¼m sihrin gerÃ§eklestigi bir Belge GÃ¶rÃ¼nÃ¼mÃ¼ iÃ§erir. Bu gÃ¶rÃ¼nÃ¼m kendi kendine yeterlidir ve o anda gÃ¶rÃ¼ntÃ¼lenen dosya iÃ§in tÃ¼m ayarlari tutar.
 
-![Belge Görünümü](imgs/DocumentView_EN.png)
-*(Resim: Çesitli panelleri vurgulanmis tek bir belge sekmesinin ekran görüntüsü.)*
+![Belge GÃ¶rÃ¼nÃ¼mÃ¼](imgs/DocumentView_EN.png)
+*(Resim: Ã‡esitli panelleri vurgulanmis tek bir belge sekmesinin ekran gÃ¶rÃ¼ntÃ¼sÃ¼.)*
 
 ### Kontrol Paneli
 
-Bu panel, ROM'dan gelen ham verilerin nasil yorumlanacagini ve görüntülenecegini tanimlamaniza olanak tanir.
+Bu panel, ROM'dan gelen ham verilerin nasil yorumlanacagini ve gÃ¶rÃ¼ntÃ¼lenecegini tanimlamaniza olanak tanir.
 
-* **Codec**: Bu en önemli ayardir. Bir codec (Kodlayici-Kod Çözücü'nün kisaltmasi), programa ROM'un ham baytlarini piksellere nasil çevirecegini söyler. Farkli konsollar grafikleri farkli sekillerde saklar (ör. düzlemsel, dogrusal). Düzenlediginiz oyun için dogru codec'i seçmelisiniz. Liste, SNES için `4bpp planar, composite (2x2bpp)` veya Game Boy için `2bpp planar` gibi formatlari içerir.
-* **Satir/Sütun Basina Döseme**: Bu döndürme kutulari, döseme görüntüleyicinin boyutlarini kontrol ederek, dösemeleri görüntülediginiz veriler için anlamli bir sekilde düzenlemenize olanak tanir.
-* **Palet Formati**: ROM'dan veya harici dosyalardan palet yüklemek için renk formatini seçer (ör. `15-bit BGR (5-5-5)` SNES/GBA için yaygindir).
+* **Codec**: Bu en Ã¶nemli ayardir. Bir codec (Kodlayici-Kod Ã‡Ã¶zÃ¼cÃ¼'nÃ¼n kisaltmasi), programa ROM'un ham baytlarini piksellere nasil Ã§evirecegini sÃ¶yler. Farkli konsollar grafikleri farkli sekillerde saklar (Ã¶r. dÃ¼zlemsel, dogrusal). DÃ¼zenlediginiz oyun iÃ§in dogru codec'i seÃ§melisiniz. Liste, SNES iÃ§in `4bpp planar, composite (2x2bpp)` veya Game Boy iÃ§in `2bpp planar` gibi formatlari iÃ§erir.
+* **Satir/SÃ¼tun Basina DÃ¶seme**: Bu dÃ¶ndÃ¼rme kutulari, dÃ¶seme gÃ¶rÃ¼ntÃ¼leyicinin boyutlarini kontrol ederek, dÃ¶semeleri gÃ¶rÃ¼ntÃ¼lediginiz veriler iÃ§in anlamli bir sekilde dÃ¼zenlemenize olanak tanir.
+* **Palet Formati**: ROM'dan veya harici dosyalardan palet yÃ¼klemek iÃ§in renk formatini seÃ§er (Ã¶r. `15-bit BGR (5-5-5)` SNES/GBA iÃ§in yaygindir).
 
-### Araçlar Paneli
+### AraÃ§lar Paneli
 
-Burada aktif düzenleme aracinizi seçebilir ve dösemeleriniz üzerinde dönüsümler gerçeklestirebilirsiniz.
+Burada aktif dÃ¼zenleme aracinizi seÃ§ebilir ve dÃ¶semeleriniz Ã¼zerinde dÃ¶nÃ¼sÃ¼mler gerÃ§eklestirebilirsiniz.
 
-![Araçlar Paneli](imgs/Tools_EN.png)
-*(Resim: Araçlar panelinin yakin çekimi.)*
+![AraÃ§lar Paneli](imgs/Tools_EN.png)                                                                                                                                                  
+*(Resim: AraÃ§lar panelinin yakin Ã§ekimi.)*
 
-* **Düzenleme Araçlari**: Isaretçi, Kalem, Boya Kovasi, Damlalik, Renk Degistirici, Yakinlastirma ve Tasima. Her biri bölüm 5'te ayrintili olarak açiklanmistir.
-* **Dönüsüm Dügmeleri**: Yatay Çevir (`H`), Dikey Çevir (`V`) ve Döndür (`R`). Bunlar bir döseme seçimine veya hiçbir sey seçilmemisse tüm görünüme uygulanir.
-* **Kaydirma Dügmeleri**: Ok dügmeleri, seçimdeki (veya tüm görünümdeki) her dösemenin içindeki pikselleri seçilen yönde bir piksel kaydirir.
+* **DÃ¼zenleme AraÃ§lari**: IsaretÃ§i, Kalem, Boya Kovasi, Damlalik, Renk Degistirici, Yakinlastirma ve Tasima. Her biri bÃ¶lÃ¼m 5'te ayrintili olarak aÃ§iklanmistir.
+* **DÃ¶nÃ¼sÃ¼m DÃ¼gmeleri**: Yatay Ã‡evir (`H`), Dikey Ã‡evir (`V`) ve DÃ¶ndÃ¼r (`R`). Bunlar bir dÃ¶seme seÃ§imine veya hiÃ§bir sey seÃ§ilmemisse tÃ¼m gÃ¶rÃ¼nÃ¼me uygulanir.
+* **Kaydirma DÃ¼gmeleri**: Ok dÃ¼gmeleri, seÃ§imdeki (veya tÃ¼m gÃ¶rÃ¼nÃ¼mdeki) her dÃ¶semenin iÃ§indeki pikselleri seÃ§ilen yÃ¶nde bir piksel kaydirir.
 
-### Palet Görünümleri
+### Palet GÃ¶rÃ¼nÃ¼mleri
 
-Tile Bulinator, maksimum esneklik için iki seviyeli bir palet sistemi kullanir.
+Tile Bulinator, maksimum esneklik iÃ§in iki seviyeli bir palet sistemi kullanir.
 
-* **Ana Palet** (sag panel): Tam 256 renkli ana paleti gösterir. Bu paleti ROM'dan (**Palet Menüsü**'ne bakin) veya harici bir dosyadan yükleyebilirsiniz. Bu palete tiklamak, düzenleme için kullanilacak bir alt palet seçer.
-    ![Ana Palet](imgs/MasterPalette_EN.png)
-    *(Resim: Ana Palet panelinin yakin çekimi.)*
-* **Aktif Palet** (sol panel): Bu, su anda çizim için kullanilan alt palettir. Boyutu, seçilen codec'in piksel basina bit sayisina göre belirlenir (ör. 4bpp bir codec 16 renkli bir aktif palet kullanacaktir). Buradaki bir renge tiklamak, onu çizim için seçer. Bir renge sag tiklamak, onu düzenlemenizi saglar.
-    ![Aktif Palet](imgs/ActivePalette_EN.png)
-    *(Resim: Aktif Palet panelinin yakin çekimi.)*
+* **Ana Palet** (sag panel): Tam 256 renkli ana paleti gÃ¶sterir. Bu paleti ROM'dan (**Palet MenÃ¼sÃ¼**'ne bakin) veya harici bir dosyadan yÃ¼kleyebilirsiniz. Bu palete tiklamak, dÃ¼zenleme iÃ§in kullanilacak bir alt palet seÃ§er.
 
-### Döseme Görüntüleyici
+    ![Ana Palet](imgs/MasterPalette_EN.png)                                                                                                                                    
+    *(Resim: Ana Palet panelinin yakin Ã§ekimi.)*
+* **Aktif Palet** (sol panel): Bu, su anda Ã§izim iÃ§in kullanilan alt palettir. Boyutu, seÃ§ilen codec'in piksel basina bit sayisina gÃ¶re belirlenir (Ã¶r. 4bpp bir codec 16 renkli bir aktif palet kullanacaktir). Buradaki bir renge tiklamak, onu Ã§izim iÃ§in seÃ§er. Bir renge sag tiklamak, onu dÃ¼zenlemenizi saglar.
 
-Burasi, kodlari çözülmüs dösemelerin görüntülendigi ve düzenlendigi ana tuvaldir.
-![Döseme Görüntüleyici](imgs/TileViewer_EN.png)
-*(Resim: Döseme Görüntüleyici panelinin yakin çekimi.)*
+    ![Aktif Palet](imgs/ActivePalette_EN.png)                                                                                                                                
+    *(Resim: Aktif Palet panelinin yakin Ã§ekimi.)*
 
-* **Gezinme**: Dosya içinde döseme döseme ilerlemek için dikey kaydirma çubugunu ve ince ayarli, bayt seviyesinde kaydirma için yatay kaydirma çubugunu kullanin. Dikey olarak kaydirmak için fare tekerlegini de kullanabilirsiniz.
+### DÃ¶seme GÃ¶rÃ¼ntÃ¼leyici
+
+Burasi, kodlari Ã§Ã¶zÃ¼lmÃ¼s dÃ¶semelerin gÃ¶rÃ¼ntÃ¼lendigi ve dÃ¼zenlendigi ana tuvaldir.
+
+![DÃ¶seme GÃ¶rÃ¼ntÃ¼leyici](imgs/TileViewer_EN.png)                                                                                                                                       
+*(Resim: DÃ¶seme GÃ¶rÃ¼ntÃ¼leyici panelinin yakin Ã§ekimi.)*
+
+* **Gezinme**: Dosya iÃ§inde dÃ¶seme dÃ¶seme ilerlemek iÃ§in dikey kaydirma Ã§ubugunu ve ince ayarli, bayt seviyesinde kaydirma iÃ§in yatay kaydirma Ã§ubugunu kullanin. Dikey olarak kaydirmak iÃ§in fare tekerlegini de kullanabilirsiniz.
 * **Yakinlastirma**: Yakinlastirmanin en hizli yolu **Ctrl** tusunu basili tutup **Fare Tekerlegini** kullanmaktir.
-* **Izgaralar**: **Görünüm** menüsü araciligiyla hassas düzenleme için 8x8 döseme izgarasini ve 1x1 piksel izgarasini açip kapatabilirsiniz. Piksel izgarasi yalnizca daha yüksek yakinlastirma seviyelerinde görünür.
+* **Izgaralar**: **GÃ¶rÃ¼nÃ¼m** menÃ¼sÃ¼ araciligiyla hassas dÃ¼zenleme iÃ§in 8x8 dÃ¶seme izgarasini ve 1x1 piksel izgarasini aÃ§ip kapatabilirsiniz. Piksel izgarasi yalnizca daha yÃ¼ksek yakinlastirma seviyelerinde gÃ¶rÃ¼nÃ¼r.
 
-## 5. Düzenleme Araçlari Detayli Anlatim
+## 5. DÃ¼zenleme AraÃ§lari Detayli Anlatim
 
-Iste Araçlar Paneli'ndeki her bir aracin nasil kullanilacagi.
+Iste AraÃ§lar Paneli'ndeki her bir aracin nasil kullanilacagi.
 
-* ![](imgs/Tools_Pointer.png) **Isaretçi Araci**: Dikdörtgen bir döseme blogu seçmek için tiklayin ve sürükleyin. Seçim daha sonra dönüsümler, kes/kopyala islemleri veya disa aktarma için kullanilabilir.
-* ![](imgs/Tools_Pencil.png) **Kalem Araci**: Aktif Palet'ten o an seçili olan renkle çizmek için bir piksele tiklayin. Sürekli çizmek için tiklayip sürükleyebilirsiniz.
-    > **Kisayol**: Bu araç etkinken **Ctrl** tusunu basili tutarak geçici olarak **Damlalik**'a geçin.
+* ![](imgs/Tools_Pointer.png) **IsaretÃ§i Araci**: DikdÃ¶rtgen bir dÃ¶seme blogu seÃ§mek iÃ§in tiklayin ve sÃ¼rÃ¼kleyin. SeÃ§im daha sonra dÃ¶nÃ¼sÃ¼mler, kes/kopyala islemleri veya disa aktarma iÃ§in kullanilabilir.
+* ![](imgs/Tools_Pencil.png) **Kalem Araci**: Aktif Palet'ten o an seÃ§ili olan renkle Ã§izmek iÃ§in bir piksele tiklayin. SÃ¼rekli Ã§izmek iÃ§in tiklayip sÃ¼rÃ¼kleyebilirsiniz.
+    > **Kisayol**: Bu araÃ§ etkinken **Ctrl** tusunu basili tutarak geÃ§ici olarak **Damlalik**'a geÃ§in.
 * ![](imgs/Tools_Bucket.png) **Boya Kovasi Araci**:
-    * **Normal Tiklama**: "Genel doldurma" yapar. Tiklanan rengin *görünür tüm döseme alani boyunca* bagli olan tüm piksellerini bulur ve bunlari aktif renkle degistirir.
-    * **Ctrl + Tiklama**: "Yerel doldurma" yapar. Doldurma, tikladiginiz tek 8x8 dösemeyle sinirlidir.
-* ![](imgs/Tools_Eyedropper.png) **Damlalik Araci**: Rengini seçmek ve palet görünümlerinde aktif renk yapmak için döseme görüntüleyicideki herhangi bir piksele tiklayin.
-* ![](imgs/Tools_Replacer.png) **Renk Degistirici Araci**: Bir rengi digeriyle degistirir. Bir piksele tiklayin; rengi "hedef" renk olur ve tüm örnekleri o anki aktif çizim rengiyle degistirilir.
-    > **Kisayol**: Degistirme islemini *yalnizca mevcut seçim içinde* gerçeklestirmek için tiklarken **Shift** tusunu basili tutun.
-* ![](imgs/Tools_Move.png) **Tasima Araci**: Bir döseme seçimini tasimaniza olanak tanir.
-    1.  Önce **Isaretçi Araci** ile bir seçim olusturun.
-    2.  **Tasima Araci**'ni seçin.
-    3.  Seçimin *içine* tiklayin ve yeni bir konuma sürükleyin.
-    4.  Dösemeleri yeni konumuna birakmak için fare dügmesini serbest birakin.
+    * **Normal Tiklama**: "Genel doldurma" yapar. Tiklanan rengin *gÃ¶rÃ¼nÃ¼r tÃ¼m dÃ¶seme alani boyunca* bagli olan tÃ¼m piksellerini bulur ve bunlari aktif renkle degistirir.
+    * **Ctrl + Tiklama**: "Yerel doldurma" yapar. Doldurma, tikladiginiz tek 8x8 dÃ¶semeyle sinirlidir.
+* ![](imgs/Tools_Eyedropper.png) **Damlalik Araci**: Rengini seÃ§mek ve palet gÃ¶rÃ¼nÃ¼mlerinde aktif renk yapmak iÃ§in dÃ¶seme gÃ¶rÃ¼ntÃ¼leyicideki herhangi bir piksele tiklayin.
+* ![](imgs/Tools_Replacer.png) **Renk Degistirici Araci**: Bir rengi digeriyle degistirir. Bir piksele tiklayin; rengi "hedef" renk olur ve tÃ¼m Ã¶rnekleri o anki aktif Ã§izim rengiyle degistirilir.
+    > **Kisayol**: Degistirme islemini *yalnizca mevcut seÃ§im iÃ§inde* gerÃ§eklestirmek iÃ§in tiklarken **Shift** tusunu basili tutun.
+* ![](imgs/Tools_Move.png) **Tasima Araci**: Bir dÃ¶seme seÃ§imini tasimaniza olanak tanir.
+    1.  Ã–nce **IsaretÃ§i Araci** ile bir seÃ§im olusturun.
+    2.  **Tasima Araci**'ni seÃ§in.
+    3.  SeÃ§imin *iÃ§ine* tiklayin ve yeni bir konuma sÃ¼rÃ¼kleyin.
+    4.  DÃ¶semeleri yeni konumuna birakmak iÃ§in fare dÃ¼gmesini serbest birakin.
 * ![](imgs/Tools_Zoom.png) **Yakinlastirma Araci**:
-    * **Sol tiklama** ile döseme görüntüleyicide yakinlastirin.
+    * **Sol tiklama** ile dÃ¶seme gÃ¶rÃ¼ntÃ¼leyicide yakinlastirin.
     * **Sag tiklama** ile uzaklastirin.
 
-## 6. Menü Referansi
+## 6. MenÃ¼ Referansi
 
-### Dosya Menüsü
+### Dosya MenÃ¼sÃ¼
 
-* **Aç**: Bir veya daha fazla ROM dosyasi açar.
-* **Son Kullanilanlari Aç**: Hizli erisim için son açilan dosyalarin bir listesi.
+* **AÃ§**: Bir veya daha fazla ROM dosyasi aÃ§ar.
+* **Son Kullanilanlari AÃ§**: Hizli erisim iÃ§in son aÃ§ilan dosyalarin bir listesi.
 * **Kaydet**: Degisiklikleri mevcut ROM dosyasina kaydeder.
 * **Farkli Kaydet...**: Mevcut ROM dosyasini yeni bir konuma kaydeder.
-* **Tümünü Kaydet**: O anda açik olan tüm degistirilmis dosyalari kaydeder.
-* **Kapat**: Mevcut sekmeyi kapatir. Kaydedilmemis degisiklikler varsa kaydetmek için sorar.
-* **Tümünü Kapat**: Açik olan tüm sekmeleri kapatmaya çalisir.
-* **Çikis**: Uygulamayi kapatir.
+* **TÃ¼mÃ¼nÃ¼ Kaydet**: O anda aÃ§ik olan tÃ¼m degistirilmis dosyalari kaydeder.
+* **Kapat**: Mevcut sekmeyi kapatir. Kaydedilmemis degisiklikler varsa kaydetmek iÃ§in sorar.
+* **TÃ¼mÃ¼nÃ¼ Kapat**: AÃ§ik olan tÃ¼m sekmeleri kapatmaya Ã§alisir.
+* **Ã‡ikis**: Uygulamayi kapatir.
 
-### Düzen Menüsü
+### DÃ¼zen MenÃ¼sÃ¼
 
-* **Geri Al/Yinele**: Düzenlemeleriniz için standart geri alma/yineleme islevselligi.
-* **Kes/Kopyala/Yapistir**: Seçilen döseme veri bloklarini kopyalar ve yapistirir.
-* **PNG olarak Disa Aktar**: Mevcut döseme seçimini bir `.png` resim dosyasi olarak disa aktarir.
-* **PNG'den Içe Aktar**: Bir `.png` dosyasini içe aktarir. Görüntü, o anki aktif palet kullanilarak dönüstürülür ve seçimin konumuna yapistirilir.
-* **Git...**: Dosyada belirli bir adrese atlamak için "Adrese Git" iletisim kutusunu açar.
+* **Geri Al/Yinele**: DÃ¼zenlemeleriniz iÃ§in standart geri alma/yineleme islevselligi.
+* **Kes/Kopyala/Yapistir**: SeÃ§ilen dÃ¶seme veri bloklarini kopyalar ve yapistirir.
+* **PNG olarak Disa Aktar**: Mevcut dÃ¶seme seÃ§imini bir `.png` resim dosyasi olarak disa aktarir.
+* **PNG'den IÃ§e Aktar**: Bir `.png` dosyasini iÃ§e aktarir. GÃ¶rÃ¼ntÃ¼, o anki aktif palet kullanilarak dÃ¶nÃ¼stÃ¼rÃ¼lÃ¼r ve seÃ§imin konumuna yapistirilir.
+* **Git...**: Dosyada belirli bir adrese atlamak iÃ§in "Adrese Git" iletisim kutusunu aÃ§ar.
 
-### Görünüm Menüsü
+### GÃ¶rÃ¼nÃ¼m MenÃ¼sÃ¼
 
-* **Döseme Izgarasi**: 8x8 döseme izgarasinin görünürlügünü açar/kapatir.
-* **Piksel Izgarasi**: 1x1 piksel izgarasinin görünürlügünü açar/kapatir.
+* **DÃ¶seme Izgarasi**: 8x8 dÃ¶seme izgarasinin gÃ¶rÃ¼nÃ¼rlÃ¼gÃ¼nÃ¼ aÃ§ar/kapatir.
+* **Piksel Izgarasi**: 1x1 piksel izgarasinin gÃ¶rÃ¼nÃ¼rlÃ¼gÃ¼nÃ¼ aÃ§ar/kapatir.
 
-### Palet Menüsü
+### Palet MenÃ¼sÃ¼
 
-* **ROM'dan Ana Palet Yükle...**: Bir adres ister, ardindan seçilen Palet Formatini kullanarak ROM'daki o adresten 256 renkli bir palet yüklemeye çalisir.
-* **Dosyadan Ana Palet Yükle...**: Harici bir dosyadan (ör. bir `.pal` dosyasi) bir ana palet yükler.
-* **Dosyadan Aktif Palet Yükle...**: Bir `.tbpal` dosyasindan dogrudan Aktif Palet görünümüne küçük bir palet yükler.
+* **ROM'dan Ana Palet YÃ¼kle...**: Bir adres ister, ardindan seÃ§ilen Palet Formatini kullanarak ROM'daki o adresten 256 renkli bir palet yÃ¼klemeye Ã§alisir.
+* **Dosyadan Ana Palet YÃ¼kle...**: Harici bir dosyadan (Ã¶r. bir `.pal` dosyasi) bir ana palet yÃ¼kler.
+* **Dosyadan Aktif Palet YÃ¼kle...**: Bir `.tbpal` dosyasindan dogrudan Aktif Palet gÃ¶rÃ¼nÃ¼mÃ¼ne kÃ¼Ã§Ã¼k bir palet yÃ¼kler.
 * **Aktif Paleti Kaydet...**: Mevcut Aktif Paleti bir `.tbpal` dosyasina kaydeder.
 
-### Proje Menüsü
+### Proje MenÃ¼sÃ¼
 
-* **Yeni Proje**: Tüm dosyalari kapatir ve yeni, bos bir proje oturumu baslatir.
-* **Proje Aç...**: Bir `.tbproj` dosyasi açarak kaydedilmis tüm dosyalari ve ayarlarini geri yükler.
-* **Son Projeyi Aç**: Son açilan projelerin bir listesi.
-* **Projeyi Kaydet / Projeyi Farkli Kaydet...**: Açik olan tüm sekmelerin ve ayarlarinin mevcut durumunu bir `.tbproj` dosyasina kaydeder.
+* **Yeni Proje**: TÃ¼m dosyalari kapatir ve yeni, bos bir proje oturumu baslatir.
+* **Proje AÃ§...**: Bir `.tbproj` dosyasi aÃ§arak kaydedilmis tÃ¼m dosyalari ve ayarlarini geri yÃ¼kler.
+* **Son Projeyi AÃ§**: Son aÃ§ilan projelerin bir listesi.
+* **Projeyi Kaydet / Projeyi Farkli Kaydet...**: AÃ§ik olan tÃ¼m sekmelerin ve ayarlarinin mevcut durumunu bir `.tbproj` dosyasina kaydeder.
 * **Projeyi Kapat**: Mevcut projeyi kapatir (islevsel olarak Yeni Proje ile aynidir).
 
-### Ayarlar Menüsü
+### Ayarlar MenÃ¼sÃ¼
 
-* **Ayarlar...**: Dil, varsayilan görünümler ve seçim görünümünü degistirebileceginiz uygulama ayarlari iletisim kutusunu açar.
+* **Ayarlar...**: Dil, varsayilan gÃ¶rÃ¼nÃ¼mler ve seÃ§im gÃ¶rÃ¼nÃ¼mÃ¼nÃ¼ degistirebileceginiz uygulama ayarlari iletisim kutusunu aÃ§ar.
 
 ## 7. Klavye ve Fare Kisayollari
 
 | Eylem | Kisayol | Baglam |
 | :--- | :--- | :--- |
-| Yakinlastirma | `Ctrl` + `Fare Tekerlegi` | Döseme Görüntüleyicide |
-| Dikey Kaydirma | `Fare Tekerlegi` | Döseme Görüntüleyicide |
-| Geçici Damlalik | `Ctrl` + `Tiklama` | Kalem Araci etkinken |
-| Yerel Döseme Doldurma | `Ctrl` + `Tiklama` | Boya Kovasi Araci etkinken |
-| Seçim Içinde Degistir | `Shift` + `Tiklama` | Renk Degistirici etkinken |
-| Aktif Rengi Düzenle | Bir renge `Sag tiklama` | Aktif Palet Görünümünde |
+| Yakinlastirma | `Ctrl` + `Fare Tekerlegi` | DÃ¶seme GÃ¶rÃ¼ntÃ¼leyicide |
+| Dikey Kaydirma | `Fare Tekerlegi` | DÃ¶seme GÃ¶rÃ¼ntÃ¼leyicide |
+| GeÃ§ici Damlalik | `Ctrl` + `Tiklama` | Kalem Araci etkinken |
+| Yerel DÃ¶seme Doldurma | `Ctrl` + `Tiklama` | Boya Kovasi Araci etkinken |
+| SeÃ§im IÃ§inde Degistir | `Shift` + `Tiklama` | Renk Degistirici etkinken |
+| Aktif Rengi DÃ¼zenle | Bir renge `Sag tiklama` | Aktif Palet GÃ¶rÃ¼nÃ¼mÃ¼nde |
 
 ---
-*Bu kilavuz, uygulama kaynak koduna dayali olarak AI tarafindan olusturulmustur. Tüm özellikler degisebilir.*
+
+*Bu kilavuz, uygulama kaynak koduna dayali olarak AI tarafindan olusturulmustur. TÃ¼m Ã¶zellikler degisebilir.*
