@@ -84,7 +84,7 @@ You can get a ready-to-use version from the releases page or compile it from the
 1.  Ensure you have **Delphi Community Edition 12** or a later version installed.
 2.  Clone the repository:
     ```sh
-    git clone [https://github.com/Delutto/Tile-Bulinator.git](https://github.com/Delutto/Tile-Bulinator.git)
+    git clone https://github.com/Delutto/Tile-Bulinator.git
     ```
 3.  Open the `.dproj` file in Delphi and compile the project.
 
@@ -114,5 +114,5 @@ This project is distributed under the MIT License. See the `LICENSE` file for mo
 
 ## Acknowledgements
 
-* Inspired by the great, classic tools: Tile Layer Pro & Tile Molester.
+* Inspired by the great, classic tools: [Tile Layer Pro](https://github.com/khansen/tile-layer-pro) & [Tile Molester](https://github.com/toruzz/TileMolester).
 * The Delphi VCL framework by Embarcadero.
