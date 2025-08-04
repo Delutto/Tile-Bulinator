@@ -1,193 +1,197 @@
-# Tile Bulinator - Lámhleabhar Úsáideora
+# Tile Bulinator - LÃ¡mhleabhar ÃšsÃ¡ideora
 
-Fáilte go dtí an Lámhleabhar Úsáideora oifigiúil le haghaidh **Tile Bulinator**. Soláthraíonn an treoir seo siúl tríd mionsonraithe ar ghnéithe agus ar fheidhmiúlachtaí uile an fheidhmchláir.
+FÃ¡ilte go dtÃ­ an LÃ¡mhleabhar ÃšsÃ¡ideora oifigiÃºil le haghaidh **Tile Bulinator**. SolÃ¡thraÃ­onn an treoir seo siÃºl trÃ­d mionsonraithe ar ghnÃ©ithe agus ar fheidhmiÃºlachtaÃ­ uile an fheidhmchlÃ¡ir.
 
-## Clár na nÁbhar
-1.  [Réamhrá](#1-introduction)
-2.  [An Príomh-Chomhéadan](#2-the-main-interface)
-3.  [Ag Tosú: Comhaid & Tionscadail](#3-getting-started-files--projects)
+## ClÃ¡r na nÃbhar
+1.  [RÃ©amhrÃ¡](#1-introduction)
+2.  [An PrÃ­omh-ChomhÃ©adan](#2-the-main-interface)
+3.  [Ag TosÃº: Comhaid & Tionscadail](#3-getting-started-files--projects)
     * [Comhad ROM a Oscailt](#opening-a-rom-file)
     * [Ag Obair le Tionscadail](#working-with-projects)
-4.  [Amharc an Doiciméid](#4-the-document-view)
-    * [Painéal na Rialuithe](#controls-panel)
-    * [Painéal na nUirlisí](#tools-panel)
-    * [Amhairc na bPailéad](#palette-views)
-    * [Amharcán na dTíleanna](#the-tile-viewer)
-5.  [Uirlisí Eagarthóireachta go Mion](#5-editing-tools-in-detail)
-6.  [Tagairt na Roghchlár](#6-menu-reference)
-    * [An Roghchlár 'Comhad'](#file-menu)
-    * [An Roghchlár 'Eagar'](#edit-menu)
-    * [An Roghchlár 'Amharc'](#view-menu)
-    * [An Roghchlár 'Pailéad'](#palette-menu)
-    * [An Roghchlár 'Tionscadal'](#project-menu)
-    * [An Roghchlár 'Socruithe'](#settings-menu)
-7.  [Aicearraí Méarchláir & Luiche](#7-keyboard--mouse-shortcuts)
+4.  [Amharc an DoicimÃ©id](#4-the-document-view)
+    * [PainÃ©al na Rialuithe](#controls-panel)
+    * [PainÃ©al na nUirlisÃ­](#tools-panel)
+    * [Amhairc na bPailÃ©ad](#palette-views)
+    * [AmharcÃ¡n na dTÃ­leanna](#the-tile-viewer)
+5.  [UirlisÃ­ EagarthÃ³ireachta go Mion](#5-editing-tools-in-detail)
+6.  [Tagairt na RoghchlÃ¡r](#6-menu-reference)
+    * [An RoghchlÃ¡r 'Comhad'](#file-menu)
+    * [An RoghchlÃ¡r 'Eagar'](#edit-menu)
+    * [An RoghchlÃ¡r 'Amharc'](#view-menu)
+    * [An RoghchlÃ¡r 'PailÃ©ad'](#palette-menu)
+    * [An RoghchlÃ¡r 'Tionscadal'](#project-menu)
+    * [An RoghchlÃ¡r 'Socruithe'](#settings-menu)
+7.  [AicearraÃ­ MÃ©archlÃ¡ir & Luiche](#7-keyboard--mouse-shortcuts)
 
 ---
 
-## 1. Réamhrá
+## 1. RÃ©amhrÃ¡
 
-Is eagarthóir grafaicí tíleanna casta é **Tile Bulinator** atá deartha chun sonraí grafaicí amha a fhaightear i ROManna consól clasaiceach a fheiceáil agus a mhodhnú. Soláthraíonn sé comhéadan cumhachtach agus iomasach do haceálaithe ROM agus do dhíograiseoirí cluichí retro chun sócmhainní cluiche a fhiosrú agus a athrú go díreach.
+Is eagarthÃ³ir grafaicÃ­ tÃ­leanna casta Ã© **Tile Bulinator** atÃ¡ deartha chun sonraÃ­ grafaicÃ­ amha a fhaightear i ROManna consÃ³l clasaiceach a fheiceÃ¡il agus a mhodhnÃº. SolÃ¡thraÃ­onn sÃ© comhÃ©adan cumhachtach agus iomasach do haceÃ¡laithe ROM agus do dhÃ­ograiseoirÃ­ cluichÃ­ retro chun sÃ³cmhainnÃ­ cluiche a fhiosrÃº agus a athrÃº go dÃ­reach.
 
-Tabharfaidh an lámhleabhar seo treoir duit trína ghnéithe cumhachtacha, ó amharc bunúsach ar chomhaid go heagarthóireacht ghrafaice chun cinn agus bainistíocht pailéad.
+Tabharfaidh an lÃ¡mhleabhar seo treoir duit trÃ­na ghnÃ©ithe cumhachtacha, Ã³ amharc bunÃºsach ar chomhaid go heagarthÃ³ireacht ghrafaice chun cinn agus bainistÃ­ocht pailÃ©ad.
 
-## 2. An Príomh-Chomhéadan
+## 2. An PrÃ­omh-ChomhÃ©adan
 
-Tá an phríomhfhuinneog roinnte i roinnt príomhréimsí:
+TÃ¡ an phrÃ­omhfhuinneog roinnte i roinnt prÃ­omhrÃ©imsÃ­:
 
-![Forbhreathnú ar an bPríomh-Chomhéadan](imgs/MainInterface_EN.png)
-*(Íomhá: Gabháil scáileáin de phríomhfhuinneog an fheidhmchláir le príomhréimsí aibhsithe.)*
+![ForbhreathnÃº ar an bPrÃ­omh-ChomhÃ©adan](imgs/MainInterface_EN.png)
+*(ÃomhÃ¡: GabhÃ¡il scÃ¡ileÃ¡in de phrÃ­omhfhuinneog an fheidhmchlÃ¡ir le prÃ­omhrÃ©imsÃ­ aibhsithe.)*
 
-* **An Príomh-Roghchlár**: Suite ag an mbarr, soláthraíonn sé rochtain ar fheidhmeanna uile an fheidhmchláir, mar shampla oibríochtaí comhaid, orduithe eagarthóireachta, agus socruithe amhairc.
-* **Limistéar na nDoiciméad**: Cuid lárnach na fuinneoige ina n-osclaítear comhaid ROM i gcluaisíní. Léiríonn gach cluaisín amharc neamhspleách doiciméid.
-* **An Barra Stádais**: Suite ag an mbun, taispeánann sé faisnéis thábhachtach mar chonair iomlán an chomhaid oscailte, an seoladh agus na comhordanáidí faoin gcúrsóir, agus an leibhéal zúmála reatha.
+* **An PrÃ­omh-RoghchlÃ¡r**: Suite ag an mbarr, solÃ¡thraÃ­onn sÃ© rochtain ar fheidhmeanna uile an fheidhmchlÃ¡ir, mar shampla oibrÃ­ochtaÃ­ comhaid, orduithe eagarthÃ³ireachta, agus socruithe amhairc.
+* **LimistÃ©ar na nDoicimÃ©ad**: Cuid lÃ¡rnach na fuinneoige ina n-osclaÃ­tear comhaid ROM i gcluaisÃ­nÃ­. LÃ©irÃ­onn gach cluaisÃ­n amharc neamhspleÃ¡ch doicimÃ©id.
+* **An Barra StÃ¡dais**: Suite ag an mbun, taispeÃ¡nann sÃ© faisnÃ©is thÃ¡bhachtach mar chonair iomlÃ¡n an chomhaid oscailte, an seoladh agus na comhordanÃ¡idÃ­ faoin gcÃºrsÃ³ir, agus an leibhÃ©al zÃºmÃ¡la reatha.
 
-## 3. Ag Tosú: Comhaid & Tionscadail
+## 3. Ag TosÃº: Comhaid & Tionscadail
 
 ### Comhad ROM a Oscailt
 
-Chun tús a chur leis, ní mór duit comhad ROM a oscailt.
-1.  Téigh go **Comhad > Oscail** sa phríomh-roghchlár.
-2.  Roghnaigh comhad ROM amháin nó níos mó ó do ríomhaire.
-3.  Osclófar gach comhad roghnaithe i gcluaisín nua i Limistéar na nDoiciméad.
+Chun tÃºs a chur leis, nÃ­ mÃ³r duit comhad ROM a oscailt.
+1.  TÃ©igh go **Comhad > Oscail** sa phrÃ­omh-roghchlÃ¡r.
+2.  Roghnaigh comhad ROM amhÃ¡in nÃ³ nÃ­os mÃ³ Ã³ do rÃ­omhaire.
+3.  OsclÃ³far gach comhad roghnaithe i gcluaisÃ­n nua i LimistÃ©ar na nDoicimÃ©ad.
 
-Nuair a osclaítear comhad, lódáiltear é isteach in **Amharc an Doiciméid**, arb é an príomh-spás oibre é don eagarthóireacht ar fad.
+Nuair a osclaÃ­tear comhad, lÃ³dÃ¡iltear Ã© isteach in **Amharc an DoicimÃ©id**, arb Ã© an prÃ­omh-spÃ¡s oibre Ã© don eagarthÃ³ireacht ar fad.
 
 ### Ag Obair le Tionscadail
 
-Sábhálann **Tionscadal (`.tbproj`)** do sheisiún oibre iomlán. Tá sé seo thar a bheith úsáideach le haghaidh haceanna casta ina bhfuil tú ag obair le comhaid iolracha nó ina bhfuil socruithe amhairc an-sonrach agat.
+SÃ¡bhÃ¡lann **Tionscadal (`.tbproj`)** do sheisiÃºn oibre iomlÃ¡n. TÃ¡ sÃ© seo thar a bheith ÃºsÃ¡ideach le haghaidh haceanna casta ina bhfuil tÃº ag obair le comhaid iolracha nÃ³ ina bhfuil socruithe amhairc an-sonrach agat.
 
-Stórálann comhad tionscadail:
-* Liosta na gcomhad ROM go léir atá oscailte.
-* Na socruithe sonracha do gach comhad: codec, pailéad, zúmáil, suíomh scrollaigh, srl.
-* An cluaisín gníomhach a raibh tú ag obair air.
+StÃ³rÃ¡lann comhad tionscadail:
+* Liosta na gcomhad ROM go lÃ©ir atÃ¡ oscailte.
+* Na socruithe sonracha do gach comhad: codec, pailÃ©ad, zÃºmÃ¡il, suÃ­omh scrollaigh, srl.
+* An cluaisÃ­n gnÃ­omhach a raibh tÃº ag obair air.
 
-Is féidir leat tionscadail a bhainistiú ag baint úsáide as an roghchlár **Tionscadal**. Úsáid **Tionscadal > Sábháil Tionscadal** chun do sheisiún reatha a shábháil agus **Tionscadal > Oscail Tionscadal** chun é a athbhunú níos déanaí.
+Is fÃ©idir leat tionscadail a bhainistiÃº ag baint ÃºsÃ¡ide as an roghchlÃ¡r **Tionscadal**. ÃšsÃ¡id **Tionscadal > SÃ¡bhÃ¡il Tionscadal** chun do sheisiÃºn reatha a shÃ¡bhÃ¡il agus **Tionscadal > Oscail Tionscadal** chun Ã© a athbhunÃº nÃ­os dÃ©anaÃ­.
 
-## 4. Amharc an Doiciméid
+## 4. Amharc an DoicimÃ©id
 
-Tá Amharc an Doiciméid i ngach cluaisín, áit a dtarlaíonn an draíocht ar fad. Tá an t-amharc seo féinchuimsitheach agus coinníonn sé na socruithe go léir don chomhad atá á thaispeáint faoi láthair.
+TÃ¡ Amharc an DoicimÃ©id i ngach cluaisÃ­n, Ã¡it a dtarlaÃ­onn an draÃ­ocht ar fad. TÃ¡ an t-amharc seo fÃ©inchuimsitheach agus coinnÃ­onn sÃ© na socruithe go lÃ©ir don chomhad atÃ¡ Ã¡ thaispeÃ¡int faoi lÃ¡thair.
 
-![Amharc an Doiciméid](imgs/DocumentView_EN.png)
-*(Íomhá: Gabháil scáileáin de chluaisín doiciméid aonair lena phainéil éagsúla aibhsithe.)*
+![Amharc an DoicimÃ©id](imgs/DocumentView_EN.png)
+*(ÃomhÃ¡: GabhÃ¡il scÃ¡ileÃ¡in de chluaisÃ­n doicimÃ©id aonair lena phainÃ©il Ã©agsÃºla aibhsithe.)*
 
-### Painéal na Rialuithe
+### PainÃ©al na Rialuithe
 
-Ligeann an painéal seo duit sainmhíniú a dhéanamh ar an gcaoi a ndéantar na sonraí amha ón ROM a léirmhíniú agus a thaispeáint.
+Ligeann an painÃ©al seo duit sainmhÃ­niÃº a dhÃ©anamh ar an gcaoi a ndÃ©antar na sonraÃ­ amha Ã³n ROM a lÃ©irmhÃ­niÃº agus a thaispeÃ¡int.
 
-* **Codec**: Seo an socrú is tábhachtaí. Insíonn codec (giorrúchán ar Ionchódóir-Díchódóir) don chlár conas bearta amha an ROM a aistriú go picteilíní. Stórálann consóil éagsúla grafaicí ar bhealaí éagsúla (m.sh., plánach, líneach). Caithfidh tú an codec ceart a roghnú don chluiche atá á chur in eagar agat. Áirítear ar an liosta formáidí mar `4bpp planar, composite (2x2bpp)` don SNES nó `2bpp planar` don Game Boy.
-* **Tíleanna in aghaidh an Ró/an Cholúin**: Rialaíonn na boscaí casadh seo toisí an amharcáin tíleanna, rud a ligeann duit na tíleanna a shocrú ar bhealach a bhfuil ciall leis do na sonraí atá á bhfeiceáil agat.
-* **Formáid an Phailéid**: Roghnaíonn sé an fhormáid datha chun pailéid a luchtú ón ROM nó ó chomhaid sheachtracha (m.sh., tá `15-bit BGR (5-5-5)` coitianta don SNES/GBA).
+* **Codec**: Seo an socrÃº is tÃ¡bhachtaÃ­. InsÃ­onn codec (giorrÃºchÃ¡n ar IonchÃ³dÃ³ir-DÃ­chÃ³dÃ³ir) don chlÃ¡r conas bearta amha an ROM a aistriÃº go picteilÃ­nÃ­. StÃ³rÃ¡lann consÃ³il Ã©agsÃºla grafaicÃ­ ar bhealaÃ­ Ã©agsÃºla (m.sh., plÃ¡nach, lÃ­neach). Caithfidh tÃº an codec ceart a roghnÃº don chluiche atÃ¡ Ã¡ chur in eagar agat. ÃirÃ­tear ar an liosta formÃ¡idÃ­ mar `4bpp planar, composite (2x2bpp)` don SNES nÃ³ `2bpp planar` don Game Boy.
+* **TÃ­leanna in aghaidh an RÃ³/an CholÃºin**: RialaÃ­onn na boscaÃ­ casadh seo toisÃ­ an amharcÃ¡in tÃ­leanna, rud a ligeann duit na tÃ­leanna a shocrÃº ar bhealach a bhfuil ciall leis do na sonraÃ­ atÃ¡ Ã¡ bhfeiceÃ¡il agat.
+* **FormÃ¡id an PhailÃ©id**: RoghnaÃ­onn sÃ© an fhormÃ¡id datha chun pailÃ©id a luchtÃº Ã³n ROM nÃ³ Ã³ chomhaid sheachtracha (m.sh., tÃ¡ `15-bit BGR (5-5-5)` coitianta don SNES/GBA).
 
-### Painéal na nUirlisí
+### PainÃ©al na nUirlisÃ­
 
-Anseo is féidir leat d'uirlis eagarthóireachta gníomhach a roghnú agus claochluithe a dhéanamh ar do thíleanna.
+Anseo is fÃ©idir leat d'uirlis eagarthÃ³ireachta gnÃ­omhach a roghnÃº agus claochluithe a dhÃ©anamh ar do thÃ­leanna.
 
-![Painéal na nUirlisí](imgs/Tools_EN.png)
-*(Íomhá: Gar-amharc ar phainéal na nUirlisí.)*
+![PainÃ©al na nUirlisÃ­](imgs/Tools_EN.png)                                                                                       
+*(ÃomhÃ¡: Gar-amharc ar phainÃ©al na nUirlisÃ­.)*
 
-* **Uirlisí Eagarthóireachta**: Pointeoir, Peann luaidhe, Buicéad Líonta, Sileadóir, Ionadaí Datha, Zúmáil, agus Bog. Mínítear gach ceann acu go mion i roinn 5.
-* **Cnaipí Claochlaithe**: Smeach go Cothrománach (`H`), Smeach go Ceartingearach (`V`), agus Rothlaigh (`R`). Baineann siad seo le roghnú tíleanna, nó leis an amharc iomlán mura bhfuil aon rud roghnaithe.
-* **Cnaipí Aistrithe**: Aistríonn na cnaipí saighde na picteilíní laistigh de gach tíl den roghnú (nó an t-amharc iomlán) picteilín amháin sa treo roghnaithe.
+* **UirlisÃ­ EagarthÃ³ireachta**: Pointeoir, Peann luaidhe, BuicÃ©ad LÃ­onta, SileadÃ³ir, IonadaÃ­ Datha, ZÃºmÃ¡il, agus Bog. MÃ­nÃ­tear gach ceann acu go mion i roinn 5.
+* **CnaipÃ­ Claochlaithe**: Smeach go CothromÃ¡nach (`H`), Smeach go Ceartingearach (`V`), agus Rothlaigh (`R`). Baineann siad seo le roghnÃº tÃ­leanna, nÃ³ leis an amharc iomlÃ¡n mura bhfuil aon rud roghnaithe.
+* **CnaipÃ­ Aistrithe**: AistrÃ­onn na cnaipÃ­ saighde na picteilÃ­nÃ­ laistigh de gach tÃ­l den roghnÃº (nÃ³ an t-amharc iomlÃ¡n) picteilÃ­n amhÃ¡in sa treo roghnaithe.
 
-### Amhairc na bPailéad
+### Amhairc na bPailÃ©ad
 
-Úsáideann Tile Bulinator córas pailéad dhá leibhéal don tsolúbthacht is mó.
+ÃšsÃ¡ideann Tile Bulinator cÃ³ras pailÃ©ad dhÃ¡ leibhÃ©al don tsolÃºbthacht is mÃ³.
 
-* **An Mháistir-Phailéad** (painéal ar dheis): Taispeánann sé an mháistir-phailéad iomlán 256-dath. Is féidir leat an pailéad seo a lódáil ón ROM (féach **An Roghchlár 'Pailéad'**) nó ó chomhad seachtrach. Má chliceálann tú ar an bpailéad seo, roghnaítear fo-phailéad le húsáid le haghaidh eagarthóireachta.
-    ![An Mháistir-Phailéad](imgs/MasterPalette_EN.png)
-    *(Íomhá: Gar-amharc ar phainéal na Máistir-Phailéide.)*
-* **An Pailéad Gníomhach** (painéal ar chlé): Seo an fo-phailéad atá á úsáid faoi láthair le haghaidh líníochta. Cinntear a mhéid de réir ghiotáin-in aghaidh-an-phicteilín an codec roghnaithe (m.sh., úsáidfidh codec 4bpp pailéad gníomhach 16-dath). Má chliceálann tú ar dhath anseo, roghnaítear é le haghaidh líníochta. Ligeann cliceáil ar dheis ar dhath duit é a chur in eagar.
-    ![An Pailéad Gníomhach](imgs/ActivePalette_EN.png)
-    *(Íomhá: Gar-amharc ar phainéal an Phailéid Ghníomhaigh.)*
+* **An MhÃ¡istir-PhailÃ©ad** (painÃ©al ar dheis): TaispeÃ¡nann sÃ© an mhÃ¡istir-phailÃ©ad iomlÃ¡n 256-dath. Is fÃ©idir leat an pailÃ©ad seo a lÃ³dÃ¡il Ã³n ROM (fÃ©ach **An RoghchlÃ¡r 'PailÃ©ad'**) nÃ³ Ã³ chomhad seachtrach. MÃ¡ chliceÃ¡lann tÃº ar an bpailÃ©ad seo, roghnaÃ­tear fo-phailÃ©ad le hÃºsÃ¡id le haghaidh eagarthÃ³ireachta.
 
-### Amharcán na dTíleanna
+    ![An MhÃ¡istir-PhailÃ©ad](imgs/MasterPalette_EN.png)                                                                                       
+    *(ÃomhÃ¡: Gar-amharc ar phainÃ©al na MÃ¡istir-PhailÃ©ide.)*
+* **An PailÃ©ad GnÃ­omhach** (painÃ©al ar chlÃ©): Seo an fo-phailÃ©ad atÃ¡ Ã¡ ÃºsÃ¡id faoi lÃ¡thair le haghaidh lÃ­nÃ­ochta. Cinntear a mhÃ©id de rÃ©ir ghiotÃ¡in-in aghaidh-an-phicteilÃ­n an codec roghnaithe (m.sh., ÃºsÃ¡idfidh codec 4bpp pailÃ©ad gnÃ­omhach 16-dath). MÃ¡ chliceÃ¡lann tÃº ar dhath anseo, roghnaÃ­tear Ã© le haghaidh lÃ­nÃ­ochta. Ligeann cliceÃ¡il ar dheis ar dhath duit Ã© a chur in eagar.
 
-Seo an príomhchanbhás ina dtaispeántar agus ina gcuirtear na tíleanna díchódaithe in eagar.
-![Amharcán na dTíleanna](imgs/TileViewer_EN.png)
-*(Íomhá: Gar-amharc ar phainéal Amharcán na dTíleanna.)*
+    ![An PailÃ©ad GnÃ­omhach](imgs/ActivePalette_EN.png)                                                                                                       
+    *(ÃomhÃ¡: Gar-amharc ar phainÃ©al an PhailÃ©id GhnÃ­omhaigh.)*
 
-* **Nascleanúint**: Úsáid an barra scrollaigh ceartingearach chun bogadh tríd an gcomhad tíl ar thíl, agus an barra scrollaigh cothrománach le haghaidh fritháireamh beacht ar leibhéal an bhirt. Is féidir leat roth na luiche a úsáid freisin chun scrollú go ceartingearach.
-* **Zúmáil**: Is é an bealach is tapúla chun zúmáil ná **Ctrl** a choinneáil síos agus **Roth na Luiche** a úsáid.
-* **Eangaí**: Is féidir leat eangach tíleanna 8x8 agus eangach picteilíní 1x1 a scoránú le haghaidh eagarthóireacht bheacht tríd an roghchlár **Amharc**. Níl an eangach picteilíní le feiceáil ach amháin ag leibhéil zúmála níos airde.
+### AmharcÃ¡n na dTÃ­leanna
 
-## 5. Uirlisí Eagarthóireachta go Mion
+Seo an prÃ­omhchanbhÃ¡s ina dtaispeÃ¡ntar agus ina gcuirtear na tÃ­leanna dÃ­chÃ³daithe in eagar.
 
-Seo mar a úsáidtear gach uirlis ó Phainéal na nUirlisí.
+![AmharcÃ¡n na dTÃ­leanna](imgs/TileViewer_EN.png)                                                                                                       
+*(ÃomhÃ¡: Gar-amharc ar phainÃ©al AmharcÃ¡n na dTÃ­leanna.)*
 
-* ![](imgs/Tools_Pointer.png) **An tUirlis Pointeora**: Cliceáil agus tarraing chun bloc dronuilleogach tíleanna a roghnú. Is féidir an roghnú a úsáid ansin le haghaidh claochluithe, oibríochtaí gearrtha/cóipeála, nó easpórtála.
-* ![](imgs/Tools_Pencil.png) **An tUirlis Pinn Luaidhe**: Cliceáil ar phicteilín chun líníocht a dhéanamh leis an dath atá roghnaithe faoi láthair ón bPailéad Gníomhach. Is féidir leat cliceáil agus tarraingt freisin chun líníocht a dhéanamh go leanúnach.
-    > **Aicearra**: Coinnigh **Ctrl** síos agus an uirlis seo gníomhach chun aistriú go sealadach chuig an **Sileadóir**.
-* ![](imgs/Tools_Bucket.png) **An tUirlis Buicéid Líonta**:
-    * **Gnáthchliceáil**: Déanann sé "líonadh domhanda". Faigheann sé gach picteilín den dath cliceáilte atá nasctha ar fud an *limistéir tíleanna infheicthe iomláin* agus cuireann sé an dath gníomhach ina n-ionad.
-    * **Ctrl + Cliceáil**: Déanann sé "líonadh áitiúil". Tá an líonadh teoranta don tíl aonair 8x8 ar chliceáil tú air.
-* ![](imgs/Tools_Eyedropper.png) **An tUirlis Sileadóra**: Cliceáil ar aon phicteilín san amharcán tíleanna chun a dhath a roghnú agus é a dhéanamh mar an dath gníomhach sna hamhairc pailéad.
-* ![](imgs/Tools_Replacer.png) **An tUirlis Ionadaí Datha**: Cuireann sé dath eile in ionad datha. Cliceáil ar phicteilín; déantar a dhath mar an dath "sprioc", agus cuirtear an dath líníochta gníomhach reatha in ionad gach cás de.
-    > **Aicearra**: Coinnigh **Shift** síos agus tú ag cliceáil chun an t-ionadú a dhéanamh *laistigh den roghnú reatha amháin*.
-* ![](imgs/Tools_Move.png) **An tUirlis Bogtha**: Ligeann sé duit roghnú tíleanna a bhogadh.
-    1.  Ar dtús, cruthaigh roghnú leis an **Uirlis Pointeora**.
+* **NascleanÃºint**: ÃšsÃ¡id an barra scrollaigh ceartingearach chun bogadh trÃ­d an gcomhad tÃ­l ar thÃ­l, agus an barra scrollaigh cothromÃ¡nach le haghaidh frithÃ¡ireamh beacht ar leibhÃ©al an bhirt. Is fÃ©idir leat roth na luiche a ÃºsÃ¡id freisin chun scrollÃº go ceartingearach.
+* **ZÃºmÃ¡il**: Is Ã© an bealach is tapÃºla chun zÃºmÃ¡il nÃ¡ **Ctrl** a choinneÃ¡il sÃ­os agus **Roth na Luiche** a ÃºsÃ¡id.
+* **EangaÃ­**: Is fÃ©idir leat eangach tÃ­leanna 8x8 agus eangach picteilÃ­nÃ­ 1x1 a scorÃ¡nÃº le haghaidh eagarthÃ³ireacht bheacht trÃ­d an roghchlÃ¡r **Amharc**. NÃ­l an eangach picteilÃ­nÃ­ le feiceÃ¡il ach amhÃ¡in ag leibhÃ©il zÃºmÃ¡la nÃ­os airde.
+
+## 5. UirlisÃ­ EagarthÃ³ireachta go Mion
+
+Seo mar a ÃºsÃ¡idtear gach uirlis Ã³ PhainÃ©al na nUirlisÃ­.
+
+* ![](imgs/Tools_Pointer.png) **An tUirlis Pointeora**: CliceÃ¡il agus tarraing chun bloc dronuilleogach tÃ­leanna a roghnÃº. Is fÃ©idir an roghnÃº a ÃºsÃ¡id ansin le haghaidh claochluithe, oibrÃ­ochtaÃ­ gearrtha/cÃ³ipeÃ¡la, nÃ³ easpÃ³rtÃ¡la.
+* ![](imgs/Tools_Pencil.png) **An tUirlis Pinn Luaidhe**: CliceÃ¡il ar phicteilÃ­n chun lÃ­nÃ­ocht a dhÃ©anamh leis an dath atÃ¡ roghnaithe faoi lÃ¡thair Ã³n bPailÃ©ad GnÃ­omhach. Is fÃ©idir leat cliceÃ¡il agus tarraingt freisin chun lÃ­nÃ­ocht a dhÃ©anamh go leanÃºnach.
+    > **Aicearra**: Coinnigh **Ctrl** sÃ­os agus an uirlis seo gnÃ­omhach chun aistriÃº go sealadach chuig an **SileadÃ³ir**.
+* ![](imgs/Tools_Bucket.png) **An tUirlis BuicÃ©id LÃ­onta**:
+    * **GnÃ¡thchliceÃ¡il**: DÃ©anann sÃ© "lÃ­onadh domhanda". Faigheann sÃ© gach picteilÃ­n den dath cliceÃ¡ilte atÃ¡ nasctha ar fud an *limistÃ©ir tÃ­leanna infheicthe iomlÃ¡in* agus cuireann sÃ© an dath gnÃ­omhach ina n-ionad.
+    * **Ctrl + CliceÃ¡il**: DÃ©anann sÃ© "lÃ­onadh Ã¡itiÃºil". TÃ¡ an lÃ­onadh teoranta don tÃ­l aonair 8x8 ar chliceÃ¡il tÃº air.
+* ![](imgs/Tools_Eyedropper.png) **An tUirlis SileadÃ³ra**: CliceÃ¡il ar aon phicteilÃ­n san amharcÃ¡n tÃ­leanna chun a dhath a roghnÃº agus Ã© a dhÃ©anamh mar an dath gnÃ­omhach sna hamhairc pailÃ©ad.
+* ![](imgs/Tools_Replacer.png) **An tUirlis IonadaÃ­ Datha**: Cuireann sÃ© dath eile in ionad datha. CliceÃ¡il ar phicteilÃ­n; dÃ©antar a dhath mar an dath "sprioc", agus cuirtear an dath lÃ­nÃ­ochta gnÃ­omhach reatha in ionad gach cÃ¡s de.
+    > **Aicearra**: Coinnigh **Shift** sÃ­os agus tÃº ag cliceÃ¡il chun an t-ionadÃº a dhÃ©anamh *laistigh den roghnÃº reatha amhÃ¡in*.
+* ![](imgs/Tools_Move.png) **An tUirlis Bogtha**: Ligeann sÃ© duit roghnÃº tÃ­leanna a bhogadh.
+    1.  Ar dtÃºs, cruthaigh roghnÃº leis an **Uirlis Pointeora**.
     2.  Roghnaigh an **Uirlis Bogtha**.
-    3.  Cliceáil *laistigh* den roghnú agus tarraing go suíomh nua é.
-    4.  Scaoil cnaipe na luiche chun na tíleanna a ligean anuas sa suíomh nua.
-* ![](imgs/Tools_Zoom.png) **An tUirlis Zúmála**:
-    * **Cliceáil ar chlé** ar an amharcán tíleanna chun zúmáil isteach.
-    * **Cliceáil ar dheis** chun zúmáil amach.
+    3.  CliceÃ¡il *laistigh* den roghnÃº agus tarraing go suÃ­omh nua Ã©.
+    4.  Scaoil cnaipe na luiche chun na tÃ­leanna a ligean anuas sa suÃ­omh nua.
+* ![](imgs/Tools_Zoom.png) **An tUirlis ZÃºmÃ¡la**:
+    * **CliceÃ¡il ar chlÃ©** ar an amharcÃ¡n tÃ­leanna chun zÃºmÃ¡il isteach.
+    * **CliceÃ¡il ar dheis** chun zÃºmÃ¡il amach.
 
-## 6. Tagairt na Roghchlár
+## 6. Tagairt na RoghchlÃ¡r
 
-### An Roghchlár 'Comhad'
+### An RoghchlÃ¡r 'Comhad'
 
-* **Oscail**: Osclaíonn sé comhad ROM amháin nó níos mó.
-* **Oscail le Déanaí**: Liosta de na comhaid a osclaíodh le déanaí le haghaidh rochtain thapa.
-* **Sábháil**: Sábhálann sé na hathruithe ar an gcomhad ROM reatha.
-* **Sábháil Mar...**: Sábhálann sé an comhad ROM reatha go suíomh nua.
-* **Sábháil Gach Rud**: Sábhálann sé gach comhad modhnaithe atá oscailte faoi láthair.
-* **Dún**: Dúnann sé an cluaisín reatha. Iarrfaidh sé ort sábháil má tá athruithe neamhshábháilte ann.
-* **Dún Gach Rud**: Déanann sé iarracht na cluaisíní oscailte go léir a dhúnadh.
-* **Scoir**: Dúnann sé an feidhmchlár.
+* **Oscail**: OsclaÃ­onn sÃ© comhad ROM amhÃ¡in nÃ³ nÃ­os mÃ³.
+* **Oscail le DÃ©anaÃ­**: Liosta de na comhaid a osclaÃ­odh le dÃ©anaÃ­ le haghaidh rochtain thapa.
+* **SÃ¡bhÃ¡il**: SÃ¡bhÃ¡lann sÃ© na hathruithe ar an gcomhad ROM reatha.
+* **SÃ¡bhÃ¡il Mar...**: SÃ¡bhÃ¡lann sÃ© an comhad ROM reatha go suÃ­omh nua.
+* **SÃ¡bhÃ¡il Gach Rud**: SÃ¡bhÃ¡lann sÃ© gach comhad modhnaithe atÃ¡ oscailte faoi lÃ¡thair.
+* **DÃºn**: DÃºnann sÃ© an cluaisÃ­n reatha. Iarrfaidh sÃ© ort sÃ¡bhÃ¡il mÃ¡ tÃ¡ athruithe neamhshÃ¡bhÃ¡ilte ann.
+* **DÃºn Gach Rud**: DÃ©anann sÃ© iarracht na cluaisÃ­nÃ­ oscailte go lÃ©ir a dhÃºnadh.
+* **Scoir**: DÃºnann sÃ© an feidhmchlÃ¡r.
 
-### An Roghchlár 'Eagar'
+### An RoghchlÃ¡r 'Eagar'
 
-* **Cealaigh/Athdhéan**: Feidhmiúlacht chaighdeánach cealaithe/athdhéanta do d'eagarthóireacht.
-* **Gearr/Cóipeáil/Greamaigh**: Cóipeálann agus greamaíonn sé bloic de shonraí tíleanna roghnaithe.
-* **Easpórtáil go PNG**: Easpórtálann sé an roghnú tíleanna reatha mar chomhad íomhá `.png`.
-* **Iompórtáil ó PNG**: Iompórtálann sé comhad `.png`. Déantar an íomhá a thiontú ag baint úsáide as an bpailéad gníomhach reatha agus greamaítear í ag suíomh an roghnaithe.
-* **Téigh go...**: Osclaíonn sé an dialóg "Téigh go Fritháireamh" chun léim go seoladh sonrach sa chomhad.
+* **Cealaigh/AthdhÃ©an**: FeidhmiÃºlacht chaighdeÃ¡nach cealaithe/athdhÃ©anta do d'eagarthÃ³ireacht.
+* **Gearr/CÃ³ipeÃ¡il/Greamaigh**: CÃ³ipeÃ¡lann agus greamaÃ­onn sÃ© bloic de shonraÃ­ tÃ­leanna roghnaithe.
+* **EaspÃ³rtÃ¡il go PNG**: EaspÃ³rtÃ¡lann sÃ© an roghnÃº tÃ­leanna reatha mar chomhad Ã­omhÃ¡ `.png`.
+* **IompÃ³rtÃ¡il Ã³ PNG**: IompÃ³rtÃ¡lann sÃ© comhad `.png`. DÃ©antar an Ã­omhÃ¡ a thiontÃº ag baint ÃºsÃ¡ide as an bpailÃ©ad gnÃ­omhach reatha agus greamaÃ­tear Ã­ ag suÃ­omh an roghnaithe.
+* **TÃ©igh go...**: OsclaÃ­onn sÃ© an dialÃ³g "TÃ©igh go FrithÃ¡ireamh" chun lÃ©im go seoladh sonrach sa chomhad.
 
-### An Roghchlár 'Amharc'
+### An RoghchlÃ¡r 'Amharc'
 
-* **Eangach Tíleanna**: Scoránaíonn sé infheictheacht na heangaí tíleanna 8x8.
-* **Eangach Picteilíní**: Scoránaíonn sé infheictheacht na heangaí picteilíní 1x1.
+* **Eangach TÃ­leanna**: ScorÃ¡naÃ­onn sÃ© infheictheacht na heangaÃ­ tÃ­leanna 8x8.
+* **Eangach PicteilÃ­nÃ­**: ScorÃ¡naÃ­onn sÃ© infheictheacht na heangaÃ­ picteilÃ­nÃ­ 1x1.
 
-### An Roghchlár 'Pailéad'
+### An RoghchlÃ¡r 'PailÃ©ad'
 
-* **Luchtaigh an Mháistir-Phailéad ón ROM...**: Iarrann sé fritháireamh, ansin déanann sé iarracht pailéad 256-dath a lódáil ón seoladh sin sa ROM ag baint úsáide as an bhFormáid Pailéid roghnaithe.
-* **Luchtaigh an Mháistir-Phailéad ó Chomhad...**: Luchtaíonn sé máistir-phailéad ó chomhad seachtrach (m.sh., comhad `.pal`).
-* **Luchtaigh an Pailéad Gníomhach ó Chomhad...**: Luchtaíonn sé pailéad beag go díreach isteach san amharc Pailéad Gníomhach ó chomhad `.tbpal`.
-* **Sábháil an Pailéad Gníomhach...**: Sábhálann sé an Pailéad Gníomhach reatha go comhad `.tbpal`.
+* **Luchtaigh an MhÃ¡istir-PhailÃ©ad Ã³n ROM...**: Iarrann sÃ© frithÃ¡ireamh, ansin dÃ©anann sÃ© iarracht pailÃ©ad 256-dath a lÃ³dÃ¡il Ã³n seoladh sin sa ROM ag baint ÃºsÃ¡ide as an bhFormÃ¡id PailÃ©id roghnaithe.
+* **Luchtaigh an MhÃ¡istir-PhailÃ©ad Ã³ Chomhad...**: LuchtaÃ­onn sÃ© mÃ¡istir-phailÃ©ad Ã³ chomhad seachtrach (m.sh., comhad `.pal`).
+* **Luchtaigh an PailÃ©ad GnÃ­omhach Ã³ Chomhad...**: LuchtaÃ­onn sÃ© pailÃ©ad beag go dÃ­reach isteach san amharc PailÃ©ad GnÃ­omhach Ã³ chomhad `.tbpal`.
+* **SÃ¡bhÃ¡il an PailÃ©ad GnÃ­omhach...**: SÃ¡bhÃ¡lann sÃ© an PailÃ©ad GnÃ­omhach reatha go comhad `.tbpal`.
 
-### An Roghchlár 'Tionscadal'
+### An RoghchlÃ¡r 'Tionscadal'
 
-* **Tionscadal Nua**: Dúnann sé gach comhad agus tosaíonn sé seisiún tionscadail nua, folamh.
-* **Oscail Tionscadal...**: Osclaíonn sé comhad `.tbproj`, ag athbhunú na gcomhad sábháilte go léir agus a gcuid socruithe.
-* **Oscail Tionscadal le Déanaí**: Liosta de na tionscadail a osclaíodh le déanaí.
-* **Sábháil Tionscadal / Sábháil Tionscadal Mar...**: Sábhálann sé staid reatha na gcluaisíní oscailte go léir agus a gcuid socruithe i gcomhad `.tbproj`.
-* **Dún Tionscadal**: Dúnann sé an tionscadal reatha (feidhmiúil mar an gcéanna le Tionscadal Nua).
+* **Tionscadal Nua**: DÃºnann sÃ© gach comhad agus tosaÃ­onn sÃ© seisiÃºn tionscadail nua, folamh.
+* **Oscail Tionscadal...**: OsclaÃ­onn sÃ© comhad `.tbproj`, ag athbhunÃº na gcomhad sÃ¡bhÃ¡ilte go lÃ©ir agus a gcuid socruithe.
+* **Oscail Tionscadal le DÃ©anaÃ­**: Liosta de na tionscadail a osclaÃ­odh le dÃ©anaÃ­.
+* **SÃ¡bhÃ¡il Tionscadal / SÃ¡bhÃ¡il Tionscadal Mar...**: SÃ¡bhÃ¡lann sÃ© staid reatha na gcluaisÃ­nÃ­ oscailte go lÃ©ir agus a gcuid socruithe i gcomhad `.tbproj`.
+* **DÃºn Tionscadal**: DÃºnann sÃ© an tionscadal reatha (feidhmiÃºil mar an gcÃ©anna le Tionscadal Nua).
 
-### An Roghchlár 'Socruithe'
+### An RoghchlÃ¡r 'Socruithe'
 
-* **Socruithe...**: Osclaíonn sé dialóg socruithe an fheidhmchláir, áit ar féidir leat an teanga, na hamhairc réamhshocraithe, agus cuma an roghnaithe a athrú.
+* **Socruithe...**: OsclaÃ­onn sÃ© dialÃ³g socruithe an fheidhmchlÃ¡ir, Ã¡it ar fÃ©idir leat an teanga, na hamhairc rÃ©amhshocraithe, agus cuma an roghnaithe a athrÃº.
 
-## 7. Aicearraí Méarchláir & Luiche
+## 7. AicearraÃ­ MÃ©archlÃ¡ir & Luiche
 
-| Gníomh | Aicearra | Comhthéacs |
+| GnÃ­omh | Aicearra | ComhthÃ©acs |
 | :--- | :--- | :--- |
-| Zúmáil | `Ctrl` + `Roth na Luiche` | In Amharcán na dTíleanna |
-| Scrollú Ceartingearach | `Roth na Luiche` | In Amharcán na dTíleanna |
-| Sileadóir Sealadach | `Ctrl` + `Cliceáil` | Nuair atá an Uirlis Pinn Luaidhe gníomhach |
-| Líonadh Tíle Áitiúil | `Ctrl` + `Cliceáil` | Nuair atá an Uirlis Buicéid Líonta gníomhach |
-| Ionadaigh sa Roghnú | `Shift` + `Cliceáil` | Nuair atá an tIonadaí Datha gníomhach |
-| Cuir an Dath Gníomhach in Eagar | `Cliceáil ar dheis` ar dhath | In Amharc an Phailéid Ghníomhaigh |
+| ZÃºmÃ¡il | `Ctrl` + `Roth na Luiche` | In AmharcÃ¡n na dTÃ­leanna |
+| ScrollÃº Ceartingearach | `Roth na Luiche` | In AmharcÃ¡n na dTÃ­leanna |
+| SileadÃ³ir Sealadach | `Ctrl` + `CliceÃ¡il` | Nuair atÃ¡ an Uirlis Pinn Luaidhe gnÃ­omhach |
+| LÃ­onadh TÃ­le ÃitiÃºil | `Ctrl` + `CliceÃ¡il` | Nuair atÃ¡ an Uirlis BuicÃ©id LÃ­onta gnÃ­omhach |
+| Ionadaigh sa RoghnÃº | `Shift` + `CliceÃ¡il` | Nuair atÃ¡ an tIonadaÃ­ Datha gnÃ­omhach |
+| Cuir an Dath GnÃ­omhach in Eagar | `CliceÃ¡il ar dheis` ar dhath | In Amharc an PhailÃ©id GhnÃ­omhaigh |
 
 ---
-*Ghintear an lámhleabhar seo le AI bunaithe ar chód foinse an fheidhmchláir. Tá gach gné faoi réir athraithe.*
+
+*Ghintear an lÃ¡mhleabhar seo le AI bunaithe ar chÃ³d foinse an fheidhmchlÃ¡ir. TÃ¡ gach gnÃ© faoi rÃ©ir athraithe.*
