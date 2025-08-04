@@ -64,6 +64,7 @@ Tile Bulinator includes support for 9 different languages.
 * Française
 * Gaeilge
 * Indonesia
+* Italian
 * Português
 * Türkçe
 
