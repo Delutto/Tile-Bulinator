@@ -181,6 +181,9 @@ Aqui está como usar cada ferramenta do Painel de Ferramentas.
 
 * **Configurações...**: Abre a caixa de diálogo de configurações da aplicação, onde você pode mudar o idioma, visualizações padrão e a aparência da seleção.
 
+![](imgs/Settings_EN.png)                                                                                                                                                  
+*(Imagem: Um close-up da janela de Configurações.)*
+
 ## 7. Atalhos de Teclado & Mouse
 
 | Ação | Atalho | Contexto |
@@ -195,3 +198,4 @@ Aqui está como usar cada ferramenta do Painel de Ferramentas.
 ---
 
 *Este manual foi gerado por IA com base no código-fonte da aplicação. Todos os recursos estão sujeitos a alterações.*
+
