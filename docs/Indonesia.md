@@ -83,7 +83,7 @@ Panel ini memungkinkan Anda untuk menentukan bagaimana data mentah dari ROM diin
 
 Di sini Anda dapat memilih alat penyuntingan aktif Anda dan melakukan transformasi pada tile Anda.
 
-![Panel Alat](imgs/Tools_EN.png)
+![Panel Alat](imgs/Tools_EN.png)                                                                                                    
 *(Gambar: Tampilan dekat dari panel Alat.)*
 
 * **Alat Penyuntingan**: Penunjuk, Pensil, Ember Isi, Pipet, Pengganti Warna, Zoom, dan Pindah. Masing-masing dijelaskan secara detail di bagian 5.
@@ -95,16 +95,20 @@ Di sini Anda dapat memilih alat penyuntingan aktif Anda dan melakukan transforma
 Tile Bulinator menggunakan sistem palet dua tingkat untuk fleksibilitas maksimum.
 
 * **Palet Master** (panel kanan): Ini menunjukkan palet master 256 warna penuh. Anda dapat memuat palet ini dari ROM (lihat **Menu Palet**) atau file eksternal. Mengklik palet ini memilih sub-palet untuk digunakan dalam penyuntingan.
-    ![Palet Master](imgs/MasterPalette_EN.png)
+
+    ![Palet Master](imgs/MasterPalette_EN.png)                                                                                              
     *(Gambar: Tampilan dekat dari panel Palet Master.)*
+  
 * **Palet Aktif** (panel kiri): Ini adalah sub-palet yang saat ini digunakan ??? menggambar. Ukurannya ditentukan oleh bit-per-piksel dari codec yang dipilih (misalnya, codec 4bpp akan menggunakan palet aktif 16 warna). Mengklik warna di sini memilihnya untuk menggambar. Klik kanan pada warna memungkinkan Anda untuk mengeditnya.
-    ![Palet Aktif](imgs/ActivePalette_EN.png)
+
+    ![Palet Aktif](imgs/ActivePalette_EN.png)                                                                                                   
     *(Gambar: Tampilan dekat dari panel Palet Aktif.)*
 
 ### Penampil Tile
 
 Ini adalah kanvas utama tempat tile yang telah didekodekan ditampilkan dan diedit.
-![Penampil Tile](imgs/TileViewer_EN.png)
+
+![Penampil Tile](imgs/TileViewer_EN.png)                                                                                                          
 *(Gambar: Tampilan dekat dari panel Penampil Tile.)*
 
 * **Navigasi**: Gunakan bilah gulir vertikal untuk bergerak melalui file tile-demi-tile, dan bilah gulir horizontal untuk penyesuaian offset tingkat byte yang lebih halus. Anda juga bisa menggunakan roda mouse untuk menggulir secara vertikal.
@@ -190,4 +194,5 @@ Berikut adalah cara menggunakan setiap alat dari Panel Alat.
 | Edit Warna Aktif | `Klik kanan` pada warna | Di Tampilan Palet Aktif |
 
 ---
+
 *Panduan ini dibuat oleh AI berdasarkan kode sumber aplikasi. Semua fitur dapat berubah.*
