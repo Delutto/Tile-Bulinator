@@ -83,7 +83,7 @@ Questo pannello permette di definire come i dati grezzi della ROM vengono interp
 
 Qui è possibile selezionare lo strumento di modifica attivo ed eseguire trasformazioni sui tasselli.
 
-![Pannello degli strumenti](imgs/Tools_EN.png)
+![Pannello degli strumenti](imgs/Tools_EN.png)                                                                                                                                 
 *(Immagine: Un primo piano del pannello degli strumenti.)*
 
 * **Strumenti di modifica**: Puntatore, Matita, Secchiello, Contagocce, Sostitutore colore, Zoom e Sposta. Ognuno è spiegato in dettaglio nella sezione 5.
@@ -95,16 +95,20 @@ Qui è possibile selezionare lo strumento di modifica attivo ed eseguire trasfor
 Tile Bulinator utilizza un sistema di palette a due livelli per la massima flessibilità.
 
 * **Palette principale** (pannello destro): Mostra la palette principale completa di 256 colori. È possibile caricare questa palette dalla ROM (vedere **Menu Palette**) o da un file esterno. Facendo clic su questa palette si seleziona una sotto-palette da utilizzare per la modifica.
-    ![Palette principale](imgs/MasterPalette_EN.png)
+
+    ![Palette principale](imgs/MasterPalette_EN.png)                                                                                                                           
     *(Immagine: Un primo piano del pannello della Palette principale.)*
+
 * **Palette attiva** (pannello sinistro): Questa è la sotto-palette attualmente in uso per disegnare. La sua dimensione è determinata dai bit per pixel del codec selezionato (es. un codec 4bpp utilizzerà una palette attiva a 16 colori). Facendo clic su un colore qui lo si seleziona per disegnare. Facendo clic con il pulsante destro del mouse su un colore è possibile modificarlo.
-    ![Palette attiva](imgs/ActivePalette_EN.png)
+
+    ![Palette attiva](imgs/ActivePalette_EN.png)                                                                                                                                   
     *(Immagine: Un primo piano del pannello della Palette attiva.)*
 
 ### Il visualizzatore di tasselli
 
 Questa è la tela principale dove i tasselli decodificati vengono visualizzati e modificati.
-![Il visualizzatore di tasselli](imgs/TileViewer_EN.png)
+
+![Il visualizzatore di tasselli](imgs/TileViewer_EN.png)                                                                                                                                  
 *(Immagine: Un primo piano del pannello del Visualizzatore di tasselli.)*
 
 * **Navigazione**: Utilizzate la barra di scorrimento verticale per spostarvi attraverso il file tassello per tassello, e la barra di scorrimento orizzontale per un offset più preciso a livello di byte. Potete anche usare la rotellina del mouse per scorrere verticalmente.
@@ -190,4 +194,5 @@ Ecco come utilizzare ogni strumento dal Pannello degli strumenti.
 | Modifica colore attivo | `Clic destro` su un colore | Nella Vista della palette attiva |
 
 ---
+
 *Questo manuale è stato generato da IA sulla base del codice sorgente dell'applicazione. Tutte le caratteristiche sono soggette a modifiche.*
